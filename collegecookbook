@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type=text] {
+    float: right;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+</style>
+</head>
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+
+<title>W3.CSS Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", times new roman}
+.w3-sidenav a {padding:20px}
+</style>
+<body>
+
+<!-- Sidenav (hidden by default) -->
+<nav class="w3-sidenav w3-card-2 w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-closenav">Close Menu</a>
+  <a href="#The Cookbook" onclick="w3_close()">The CookBook</a>
+  <a href="#about" onclick="w3_close()">About</a>
+  <a href="#suggestions" onclick="w3_close()">Suggestions</a>
+</nav>
+
+<!-- Top menu -->
+  <div class="w3-white w3-xlarge w3-padding-xlarge" style="max-       width:1200px;margin:auto">
+    <div class="w3-opennav w3-left w3-hover-text-grey" onclick="w3_open()">☰</div>
+    <div class="w3-right">
+    </div>
+    
+    <div class="w3-center">College Student CookBook</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <a href="#bacon">
+  <img src="https://cdn2.hubspot.net/hubfs/500440/Blog_Content/bacon.jpg" style="width:200px;height:200px;border:0;">
+</a>
+      <h5>Bacon</h5>
+    </div>
+    <div class="w3-quarter">
+      <a href="#chicken">
+  <img src="http://wishfulchef.cdn.kinsta.com/wp-content/uploads/2011/09/ChickenRoastedInBeer1.jpg" alt="HTML tutorial" style="width:200px;height:200px;border:0;">
+</a>
+      <h5>Chicken</h5>
+</div>
+    <div class="w3-quarter">
+      <a href="#sausage">
+  <img src="http://0384e38.netsolhost.com/wordpress1/wp-content/uploads/2013/07/Reduced-Fat-Beef-Sausages-cooked1.jpg" alt="HTML tutorial" style="width:200px;height:200px;border:0;">
+</a>
+      <h5>Sausage</h5>
+    </div>
+    <div class="w3-quarter">
+      <a href="#loaded">
+  <img src="http://sunshineandsippycups.com/wp-content/uploads/2014/01/WW-Potato.jpg" alt="HTML tutorial" style="width:200px;height:200px;">
+</a>
+      <h5>Loaded Potato</h5>
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <a href="#grilledcheese">
+  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRyNciKP5WnTd4ISdQTWHoEUzy98zyzplcJQedbwuDCfu2vPvsW" alt="HTML tutorial" style="width:200px;height:200px;">
+</a>
+      <h5>Grilled Cheese</h5>
+    </div>
+    <div class="w3-quarter">
+      <a href="#pbj">
+  <img src="http://www.todayifoundout.com/wp-content/uploads/2014/02/peanut-butter-and-jelly.jpg" alt="HTML tutorial" style="width:200px;height:200px;border:0;">
+</a>
+      <h5>Peanut Butter & Jelly</h5>
+</div>
+    <div class="w3-quarter">
+      <a href="#quesa">
+  <img src="http://addapinch.com/wp-content/blogs.dir/3/files/2012/02/pork_and_mushroom_quesadillas_hr.jpg" alt="HTML tutorial" style="width:200px;height:200px;border:0;">
+</a>
+      <h5>Quesadillas</h5>
+      <p>.</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="#soup">
+  <img src="http://weknowyourdreams.com/images/soup/soup-06.jpg" style="width:200px;height:200px;">
+</a>
+      <h5>Soup</h5>
+    </div>
+
+  <!--Third-->
+<div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <a href="#pasta">
+  <img src="http://www.pmq.com/January-2013/Pasta-dishes-yield-high-profits-enhance-menus-and-help-create-a-true-Italian-dining-experience/pasta-openpic.jpg" style="width:200px;height:200px;border:0;">
+</a>
+      <h5>Pasta</h5>
+    </div>
+
+<div class="w3-quarter">
+      <a href="#ramen">
+  <img src="https://thumbs.dreamstime.com/z/thai-food-spicy-fried-noodle-pork-1-27534786.jpg" style="width:200px;height:200px;">
+</a>
+      <h5>Ramen(Remade!)</h5>
+    </div>
+  
+    <div class="w3-quarter">
+      <a href="#smoothie">
+  <img src="http://cdn3.bigcommerce.com/s-pcf1s/product_images/uploaded_images/smoothie.jpg?t=1423264324" alt="HTML tutorial" style="width:200px;height:200px;border:0;">
+</a>
+      <h5>Smoothie</h5>
+</div>
+    <div class="w3-quarter">
+      <a href="#carmel">
+  <img src="https://sweetpeaskitchen.files.wordpress.com/2010/12/caramel-popcorn.jpg" style="width:200px;height:200px;border:0;">
+</a>
+      <h5>Caramel Popcorn</h5>
+      </div>
+
+<!--Fourth-->
+<div class="w3-quarter">
+      <a href="#cookie">
+  <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2013/05/1MinuteChocolateChipCookieMug-2.jpg" style="width:200px;height:200px;border:0;">
+</a>
+ <h5>Cookie in a Mug</h5>
+    </div>
+
+    <div class="w3-quarter">
+      <a href="#kool">
+  <img src="https://userscontent2.emaze.com/images/a090b42f-a638-4bca-b3d3-3b60049faac2/247acdfcde6c52d0716c3ddb1d009bb4.jpg" alt="HTML tutorial" style="width:150px;height:200px;">
+</a>
+      <h5>Kool-Aid Ice Cups</h5>
+    </div>
+  
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <a href="#detox">
+  <img src="http://bembu.com/wp-content/uploads/2013/06/Strawberry-kiwi-detox-water-1024x768.jpg" alt="HTML tutorial" style="width:200px;height:200px;">
+</a>
+      <h5>Detox Water</h5>
+    </div>
+    <div class="w3-quarter">
+      <a href="#half">
+  <img src="https://s-media-cache-ak0.pinimg.com/236x/75/5d/2b/755d2b2906a666314e61186f93dfaaec.jpg" alt="HTML tutorial" style="width:200px;height:200px;border:0;">
+</a>
+      <h5>Half N Half</h5>
+</div>
+</div>
+  
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <ul class="w3-pagination">
+      <li><a class="w3-black" href="#1">1</a></li>
+      <li><a class="w3-hover-black" href="#2">2</a></li>
+      <li><a class="w3-hover-black" href="#3">3</a></li>
+      <li><a class="w3-hover-black" href="#4">4</a></li>
+      <li><a class="w3-hover-black" href="#5">5</a></li>
+      <li><a class="w3-hover-black" href="#">»</a></li>
+    </ul>
+  </div>
+  <hr id="bacon">
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Bacon</h1>
+<img src="https://cdn2.hubspot.net/hubfs/500440/Blog_Content/bacon.jpg" style="width:200px;height:200px;border:0;">
+<p>Everything's better with bacon!! Enjoy crispy bacon from your own dorm. Cook your favorite piece of pork and even turkey in a quick delicious way.</p>
+
+</body>
+<hr>
+
+<hr id="chicken">
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Chicken</h1>
+<img src="http://wishfulchef.cdn.kinsta.com/wp-content/uploads/2011/09/ChickenRoastedInBeer1.jpg" alt="HTML tutorial" style="width:200px;height:200px;border:0;">
+<p>Delight yourself with a juicy cut of chicken. Cook this excellent meat and style it your way!! .</p>
+
+</body>
+<hr>
+
+<hr id="sausage">
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Sausage</h1>
+<img src="http://0384e38.netsolhost.com/wordpress1/wp-content/uploads/2013/07/Reduced-Fat-Beef-Sausages-cooked1.jpg" alt="HTML tutorial" style="width:200px;height:200px;border:0;">
+<p>Beef or Pork, it doesn't matter. Sausage can brighten up any meal. Cook this meat thoroughly for maximum enjoyment</p>
+
+</body>
+<hr>
+
+<hr id="loaded">
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Loaded Potato</h1>
+<img src="http://sunshineandsippycups.com/wp-content/uploads/2014/01/WW-Potato.jpg" alt="HTML tutorial" style="width:200px;height:200px;">
+<p>Potatoes are amazing. Add even more toppings to make it even better. ENjoy an Loaded Potato if you want to spice things up in your cooking repertoire..</p>
+
+</body>
+<hr>
+
+  <!-- About Section -->
+  <hr id="about">
+  <div class="w3-container w3-padding-32 w3-center">
+    <h3>About Us, The Creative Minds</h3><br>
+    <img src="https://mail.google.com/mail/u/0/?ui=2&ik=9e7a00c6d5&view=fimg&th=158141a64eeff45e&attid=0.1&disp=inline&safe=1&attbid=ANGjdJ9dHqXI-3dhu1NKWqz6pOg7ZEQ-ql0ujqyAZqgtlmh8cSNtSQ6NHnbikJ-59KpQTmRe0_6rSMzK6BR4bmnkRhd9YWkPXbytvmMjQCMzxJwUApyioIX1IOkJysQ&ats=1477806024764&rm=158141a64eeff45e&zw&sz=w1366-h662" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>We are the bears!</b></h4>
+      <h6><i>With hunger and the story of a struggle as a driving force</i></h6>    </div>
+  </div>
+  <hr>
+
+<!-- Suggestion Section. -->
+  <hr id="suggestions">
+<div class="w3-container w3-padding-32 w3-center">
+    <h2><b>Let us know what you think, or how to improve!</b></h2><br>
+      
+      <h4>contact@collegecookbook.com</h4><br>
+      <h3><b>Or send us an email personally!</b></h3><br>
+      <h4>abubakari@collegecookbook.com</h4>
+      <h4>judy@collegecookbook.com</h4>
+      <h4>eric@collegecookbook.com</h4>
+      <h4>robert@collegecookbook.com</h4>
+      <h4>stephen@collegecookbook.com</h4>
+    </div>
+  </div>
+  <hr>
+
+<!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3></h3>
+      <p>Please enjoy! This website was inspired by hungry college kids so that other young adults will never be hungry again.</p>
+      <p>Powered by <a href="http://www.morgan.edu" target="_blank">morgan.edu.</a></p>
+    </div>
+   
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">College</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Noodles</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dorm</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Creative</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Food</span>
+        
+  </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<!-- Return to Top -->
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+
+</body>
+</html>
